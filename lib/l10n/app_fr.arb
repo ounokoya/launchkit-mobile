@@ -1,0 +1,846 @@
+{
+  "@@locale": "fr",
+  "commonNavDashboard": "Tableau de bord",
+  "commonNavProjects": "Projets",
+  "commonNavMembers": "Membres",
+  "commonNavBilling": "Abonnement",
+  "commonNavSettings": "Paramètres",
+  "commonNavProfile": "Profil",
+  "commonSearch": "Rechercher…",
+  "commonLanguageLabel": "Langue",
+  "commonLanguageFr": "Français",
+  "commonLanguageEn": "English",
+  "commonPlanFree": "Free",
+  "commonPlanPro": "Pro",
+  "commonPlanLabel": "Formule {plan}",
+  "@commonPlanLabel": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      }
+    }
+  },
+  "commonRoleOwner": "Propriétaire",
+  "commonRoleAdmin": "Admin",
+  "commonRoleMember": "Membre",
+  "commonRoleAdminDesc": "Gère les membres et l’abonnement",
+  "commonRoleMemberDesc": "Travaille sur les projets",
+  "commonStatusActive": "Actif",
+  "commonStatusInProgress": "En cours",
+  "commonStatusDraft": "Brouillon",
+  "commonStatusPending": "En attente",
+  "commonActionSave": "Enregistrer",
+  "commonActionCancel": "Annuler",
+  "commonActionContinue": "Continuer",
+  "commonActionEdit": "Modifier",
+  "commonActionDelete": "Supprimer",
+  "commonActionClose": "Fermer",
+  "commonActionRetry": "Réessayer",
+  "commonActionSeeAll": "Tout voir",
+  "commonActionBackHome": "Retour à l’accueil",
+  "commonActionBackDashboard": "Retour au tableau de bord",
+  "commonActionSignOut": "Se déconnecter",
+  "commonTimeJustNow": "à l’instant",
+  "commonTimeMinutesAgo": "il y a {n} min",
+  "@commonTimeMinutesAgo": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "commonTimeHoursAgo": "il y a {n} h",
+  "@commonTimeHoursAgo": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "commonTimeYesterday": "hier",
+  "commonTimeToday": "aujourd’hui",
+  "commonTimeDaysAgo": "il y a {n, plural, one {{n} jour} other {{n} jours}}",
+  "@commonTimeDaysAgo": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "commonMetaEdited": "Modifié {when}",
+  "@commonMetaEdited": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "commonMetaCreated": "Créé {when}",
+  "@commonMetaCreated": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "commonDemoEmailHint": "Démo : utilisez une adresse inventée, comme marie@demo.test",
+  "commonLoading": "Chargement…",
+  "commonA11ySwitchLanguage": "Changer de langue",
+  "commonA11ySwitchOrg": "Changer d’organisation",
+  "commonA11yNotifications": "Notifications",
+  "commonA11yAccountMenu": "Menu du compte",
+  "commonA11yOpenMenu": "Ouvrir le menu",
+  "homeNavFeatures": "Fonctionnalités",
+  "homeNavPricing": "Formules",
+  "homeNavMethod": "Méthode",
+  "homeNavSource": "Code source",
+  "homeNavLogin": "Connexion",
+  "homeCtaTryDemo": "Essayer la démo",
+  "homeCtaViewCode": "Voir le code",
+  "homeHeroBadge": "Kit de démarrage SaaS · code ouvert",
+  "homeHeroTitle": "Votre MVP en 2 semaines, sur une base déjà prête",
+  "homeHeroSubtitle": "Comptes, organisations, rôles, abonnements et back-office sont déjà en place. Je pars de ce kit pour livrer votre produit vite, au forfait.",
+  "homeHeroDemoNote": "Démo : inscrivez-vous avec une adresse inventée, comme marie@demo.test",
+  "homePreviewProject1": "Site vitrine",
+  "homePreviewProject2": "App mobile",
+  "homePreviewProject3": "Tableau de bord",
+  "homePreviewEditedRecently": "Modifié récemment",
+  "homeFeaturesTitle": "Tout ce qu’un SaaS demande, déjà fait",
+  "homeFeaturesSubtitle": "On se concentre directement sur ce qui rend votre produit unique.",
+  "homeFeaturesAccountsTitle": "Comptes et connexion",
+  "homeFeaturesAccountsDesc": "Inscription, connexion et vérification de l’e-mail.",
+  "homeFeaturesTenancyTitle": "Multi-entreprise",
+  "homeFeaturesTenancyDesc": "Chaque client a son organisation et ses données.",
+  "homeFeaturesRolesTitle": "Rôles et invitations",
+  "homeFeaturesRolesDesc": "Propriétaire, admin et membre, invitations par e-mail.",
+  "homeFeaturesPlansTitle": "Formules Free et Pro",
+  "homeFeaturesPlansDesc": "Limites par formule et paiement interchangeable.",
+  "homeFeaturesBackofficeTitle": "Back-office",
+  "homeFeaturesBackofficeDesc": "Vue super-admin sur les organisations et les utilisateurs.",
+  "homeFeaturesI18nTitle": "Français et anglais",
+  "homeFeaturesI18nDesc": "Interface bilingue, prête pour d’autres langues.",
+  "homeStackLabel": "Stack",
+  "homeStackRustWorker": "Worker Rust",
+  "homeMethodTitle": "Ma méthode, en 4 étapes",
+  "homeMethodSpecTitle": "Spec",
+  "homeMethodSpecDesc": "Ce qu’on construit, écrit et validé avec vous.",
+  "homeMethodDecisionsTitle": "Décisions",
+  "homeMethodDecisionsDesc": "Chaque choix technique est noté et justifié.",
+  "homeMethodTestsTitle": "Tests",
+  "homeMethodTestsDesc": "Les tests découlent directement de la spec.",
+  "homeMethodChangelogTitle": "Changelog",
+  "homeMethodChangelogDesc": "Chaque livraison est versionnée et documentée.",
+  "homeFooterCta": "Besoin d’un MVP ? Parlons de votre projet.",
+  "homeFooterContact": "Me contacter",
+  "homeFooterLegal": "© {year} LaunchKit · démo portfolio · FR / EN",
+  "@homeFooterLegal": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "homeFooterAndroid": "Appli Android",
+  "authSideSignupTitle": "Lancez votre SaaS sur une base déjà prête",
+  "authSideSignupPoint1": "Comptes et organisations",
+  "authSideSignupPoint2": "Rôles et invitations",
+  "authSideSignupPoint3": "Formules Free et Pro",
+  "authSideLoginTitle": "Bon retour parmi nous",
+  "authSideLoginPoint1": "Reprenez là où vous en étiez",
+  "authSideLoginPoint2": "Changez d’organisation en un clic",
+  "authSideLoginPoint3": "Interface en français ou en anglais",
+  "authFieldFullName": "Nom complet",
+  "authFieldEmail": "E-mail",
+  "authFieldPassword": "Mot de passe",
+  "authSignupTitle": "Créer un compte",
+  "authSignupSubtitle": "Gratuit, sans carte bancaire.",
+  "authSignupEmailHelp": "Utilisez une adresse inventée : la démo n’envoie ses e-mails que dans une boîte de test.",
+  "authSignupPasswordHelp": "{min} caractères minimum.",
+  "@authSignupPasswordHelp": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      }
+    }
+  },
+  "authSignupSubmit": "Créer mon compte",
+  "authSignupHaveAccount": "Déjà un compte ?",
+  "authSignupGoLogin": "Se connecter",
+  "authLoginTitle": "Connexion",
+  "authLoginSubtitle": "Connectez-vous à votre espace LaunchKit.",
+  "authLoginSubmit": "Se connecter",
+  "authLoginNoAccount": "Pas encore de compte ?",
+  "authLoginGoSignup": "S’inscrire",
+  "authVerifyTitle": "Vérifiez votre e-mail",
+  "authVerifyText": "Nous avons envoyé un lien de vérification à {email}. Cliquez dessus pour activer votre compte.",
+  "@authVerifyText": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "authVerifyDemoNote": "Démo : l’e-mail arrive dans la boîte de test Mailpit.",
+  "authVerifyOpenInbox": "Ouvrir la boîte de démo",
+  "authVerifyResend": "Renvoyer l’e-mail",
+  "authVerifyResent": "E-mail renvoyé à {email}.",
+  "@authVerifyResent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "authVerifyVerified": "Adresse vérifiée. Bienvenue !",
+  "authVerifyLinkExpired": "Ce lien a expiré. Demandez-en un nouveau depuis l’écran de vérification.",
+  "onboardingStep": "Étape {current} sur {total}",
+  "@onboardingStep": {
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingOrgTitle": "Créez votre organisation",
+  "onboardingOrgText": "Votre entreprise, votre équipe et vos projets au même endroit. Vous en serez le propriétaire.",
+  "onboardingOrgName": "Nom de l’organisation",
+  "onboardingOrgNameHelp": "Vous pourrez le modifier plus tard.",
+  "onboardingDefaultPlan": "Vous démarrez en formule Free : {projects} projets et {members} membres.",
+  "@onboardingDefaultPlan": {
+    "placeholders": {
+      "members": {
+        "type": "String"
+      },
+      "projects": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingSubmit": "Créer l’organisation",
+  "dashboardGreeting": "Bonjour {firstName} 👋",
+  "@dashboardGreeting": {
+    "placeholders": {
+      "firstName": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardIntro": "Voici l’activité de votre organisation {org}.",
+  "@dashboardIntro": {
+    "placeholders": {
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardStatPlan": "Formule",
+  "dashboardStatProjects": "Projets",
+  "dashboardStatProjectsSub": "sur {max} max",
+  "@dashboardStatProjectsSub": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardStatMembers": "Membres",
+  "dashboardStatMembersSub": "actifs",
+  "dashboardStatInvitations": "Invitations",
+  "dashboardStatInvitationsSub": "en attente",
+  "dashboardRecentProjects": "Projets récents",
+  "dashboardFreeSlot": "Nouveau projet ({remaining, plural, one {{remaining} restant} other {{remaining} restants}} sur la formule Free)",
+  "@dashboardFreeSlot": {
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardActivityTitle": "Activité récente",
+  "dashboardActivityMemberJoined": "{name} a rejoint {org}",
+  "@dashboardActivityMemberJoined": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardActivityProjectCreated": "{name} a créé « {project} »",
+  "@dashboardActivityProjectCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "project": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardActivityInvitationSent": "Invitation envoyée à {email}",
+  "@dashboardActivityInvitationSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardActivityOrgCreated": "Organisation {org} créée",
+  "@dashboardActivityOrgCreated": {
+    "placeholders": {
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardActivityEmpty": "Aucune activité pour l’instant. Elle apparaîtra ici dès que votre équipe travaillera sur un projet.",
+  "upgradeBannerTitle": "Passez en Pro pour des projets illimités",
+  "upgradeBannerDesc": "Paiement simulé dans la démo : aucun vrai paiement n’est effectué.",
+  "upgradeSeePlans": "Voir les formules",
+  "upgradeButton": "Passer en Pro",
+  "membersTitle": "Membres de l’organisation",
+  "membersSummaryActive": "{n, plural, one {{n} membre actif} other {{n} membres actifs}}",
+  "@membersSummaryActive": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "membersSummaryPending": "{n, plural, one {{n} invitation en attente} other {{n} invitations en attente}}",
+  "@membersSummaryPending": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "membersSummaryLimit": "formule {plan} : {max} membres maximum",
+  "@membersSummaryLimit": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      },
+      "plan": {
+        "type": "String"
+      }
+    }
+  },
+  "membersColMember": "Membre",
+  "membersColRole": "Rôle",
+  "membersColStatus": "Statut",
+  "membersInviteTitle": "Inviter un membre",
+  "membersInviteDesc": "Un e-mail d’invitation part dans la boîte de démo.",
+  "membersInviteRole": "Rôle",
+  "membersInviteSubmit": "Envoyer l’invitation",
+  "membersRolesHelpTitle": "Qui peut faire quoi ?",
+  "membersRolesHelpOwner": "Propriétaire : tout, y compris supprimer l’organisation.",
+  "membersRolesHelpAdmin": "Admin : membres, invitations et abonnement.",
+  "membersRolesHelpMember": "Membre : projets uniquement, pas d’accès à l’abonnement.",
+  "membersEmptyTitle": "Invitez votre équipe",
+  "membersEmptyText": "Pour l’instant, {org} ne compte qu’un membre. Invitez vos collègues pour travailler ensemble.",
+  "@membersEmptyText": {
+    "placeholders": {
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "membersActionChangeRole": "Changer le rôle",
+  "membersActionRemove": "Retirer de l’organisation",
+  "membersActionResendInvite": "Renvoyer l’invitation",
+  "membersActionCancelInvite": "Annuler l’invitation",
+  "membersConfirmRemoveTitle": "Retirer {name} ?",
+  "@membersConfirmRemoveTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "membersConfirmRemoveText": "{name} n’aura plus accès aux projets de l’organisation {org}. Vous pourrez l’inviter à nouveau plus tard.",
+  "@membersConfirmRemoveText": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "membersConfirmRemoveConfirm": "Retirer",
+  "membersToastInvitationSent": "Invitation envoyée à {email}.",
+  "@membersToastInvitationSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "membersToastInvitationResent": "Invitation renvoyée à {email}.",
+  "@membersToastInvitationResent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "membersToastInvitationCanceled": "Invitation annulée.",
+  "membersToastRoleChanged": "{name} a maintenant le rôle {role}.",
+  "@membersToastRoleChanged": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "membersToastRemoved": "{name} ne fait plus partie de l’organisation {org}.",
+  "@membersToastRemoved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "membersErrorLimit": "Votre formule Free compte déjà {max} membres. Passez en Pro pour en inviter d’autres.",
+  "@membersErrorLimit": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "membersErrorAlreadyMember": "{email} fait déjà partie de l’organisation {org}.",
+  "@membersErrorAlreadyMember": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      },
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "membersErrorAlreadyInvited": "Une invitation est déjà en attente pour {email}.",
+  "@membersErrorAlreadyInvited": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "invitationTitle": "Rejoindre {org}",
+  "@invitationTitle": {
+    "placeholders": {
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "invitationText": "{inviter} vous invite à rejoindre l’organisation {org} sur LaunchKit.",
+  "@invitationText": {
+    "placeholders": {
+      "inviter": {
+        "type": "String"
+      },
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "invitationProposedRole": "Rôle proposé",
+  "invitationSignedInAs": "Compte connecté : {email}",
+  "@invitationSignedInAs": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "invitationAccept": "Accepter l’invitation",
+  "invitationDecline": "Refuser",
+  "invitationAccepted": "Bienvenue dans {org} !",
+  "@invitationAccepted": {
+    "placeholders": {
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "invitationDeclined": "Invitation refusée.",
+  "invitationExpired": "Cette invitation a expiré. Demandez à {inviter} de vous en envoyer une nouvelle.",
+  "@invitationExpired": {
+    "placeholders": {
+      "inviter": {
+        "type": "String"
+      }
+    }
+  },
+  "invitationWrongAccount": "Cette invitation est destinée à {email}. Connectez-vous avec cette adresse pour l’accepter.",
+  "@invitationWrongAccount": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "billingTitle": "Abonnement",
+  "billingIntro": "Réservé au propriétaire et aux admins. Les paiements de la démo sont simulés.",
+  "billingCurrentPlan": "Formule actuelle",
+  "billingLimitReached": "Limite atteinte",
+  "billingUsage": "{used} / {max}",
+  "@billingUsage": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      },
+      "used": {
+        "type": "String"
+      }
+    }
+  },
+  "billingUnlimited": "illimité",
+  "billingPerMonth": "/ mois",
+  "billingPerMonthSimulated": "/ mois (simulé)",
+  "billingRecommended": "Recommandé",
+  "billingFreeProjects": "{n} projets",
+  "@billingFreeProjects": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "billingFreeMembers": "{n} membres",
+  "@billingFreeMembers": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "billingFreeSupport": "Support communautaire",
+  "billingProProjects": "Projets illimités",
+  "billingProMembers": "Membres illimités",
+  "billingProSupport": "Support prioritaire",
+  "billingSimulatedNote": "Paiement simulé : « Passer en Pro » envoie un faux webhook, traité par le worker Rust. Aucune carte n’est demandée.",
+  "billingConfirming": "Confirmation du paiement en cours…",
+  "billingProActivatedTitle": "Bienvenue dans Pro",
+  "billingProActivatedText": "{org} passe en Pro : projets et membres illimités. Dans cette démo, le paiement est simulé.",
+  "@billingProActivatedText": {
+    "placeholders": {
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "projectsTitle": "Projets",
+  "projectsIntro": "Module d’exemple : c’est ici que se branche le métier de chaque client.",
+  "projectsNew": "Nouveau projet",
+  "projectsLimitAlert": "Vous avez atteint la limite de la formule Free : {used} projets sur {max}. Passez en Pro pour en créer d’autres.",
+  "@projectsLimitAlert": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      },
+      "used": {
+        "type": "String"
+      }
+    }
+  },
+  "projectsLockedTitle": "Projet suivant : disponible en Pro",
+  "projectsLockedDesc": "Passez en Pro pour créer autant de projets que nécessaire.",
+  "projectsEmptyTitle": "Aucun projet pour l’instant",
+  "projectsEmptyText": "Créez votre premier projet pour organiser le travail de votre équipe. La formule Free en compte jusqu’à {max}.",
+  "@projectsEmptyText": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "projectsEmptyCreate": "Créer un projet",
+  "projectsDetailDescription": "Description",
+  "projectsDetailHistory": "Historique",
+  "projectsDetailDetails": "Informations",
+  "projectsDetailStatus": "Statut",
+  "projectsDetailLead": "Responsable",
+  "projectsDetailDue": "Échéance",
+  "projectsDetailCreatedOn": "Créé le",
+  "projectsDetailMembers": "Membres du projet",
+  "projectsDetailEditProject": "Modifier le projet",
+  "projectsHistoryStatusChanged": "{name} a changé le statut en « {status} »",
+  "@projectsHistoryStatusChanged": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "projectsHistoryDescriptionChanged": "{name} a modifié la description",
+  "@projectsHistoryDescriptionChanged": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "projectsHistoryCreated": "{name} a créé le projet",
+  "@projectsHistoryCreated": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "projectsHistoryStatusChangedShort": "Statut passé à « {status} »",
+  "@projectsHistoryStatusChangedShort": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "projectsHistoryDescriptionChangedShort": "Description modifiée",
+  "projectsFormName": "Nom du projet",
+  "projectsFormNameHelp": "Un nom court que toute l’équipe reconnaîtra.",
+  "projectsFormDescription": "Description",
+  "projectsFormCreate": "Créer le projet",
+  "projectsConfirmDeleteTitle": "Supprimer « {project} » ?",
+  "@projectsConfirmDeleteTitle": {
+    "placeholders": {
+      "project": {
+        "type": "String"
+      }
+    }
+  },
+  "projectsConfirmDeleteText": "Le projet et son historique seront supprimés définitivement.",
+  "projectsToastCreated": "Projet « {project} » créé.",
+  "@projectsToastCreated": {
+    "placeholders": {
+      "project": {
+        "type": "String"
+      }
+    }
+  },
+  "projectsToastSaved": "Modifications enregistrées.",
+  "projectsToastDeleted": "Projet supprimé.",
+  "adminArea": "Back-office",
+  "adminSuperAdmin": "Super-admin",
+  "adminNavOverview": "Vue d’ensemble",
+  "adminNavOrgs": "Organisations",
+  "adminNavUsers": "Utilisateurs",
+  "adminNavPlans": "Formules",
+  "adminOrgsIntro": "Toutes les organisations de la démo. Visible uniquement par le super-admin.",
+  "adminStatOrgs": "Organisations",
+  "adminStatUsers": "Utilisateurs",
+  "adminStatPro": "En Pro",
+  "adminStatProSub": "simulé",
+  "adminStatJobs": "Tâches du worker",
+  "adminStatJobsSub": "en attente",
+  "adminColOrg": "Organisation",
+  "adminColPlan": "Formule",
+  "adminColMembers": "Membres",
+  "adminColProjects": "Projets",
+  "adminColCreated": "Créée le",
+  "mobileOrgsTitle": "Vos organisations",
+  "mobileOrgsSubtitle": "Choisissez l’espace sur lequel travailler.",
+  "mobileOrgsDesc": "Formule {plan} · {members, plural, one {{members} membre} other {{members} membres}}",
+  "@mobileOrgsDesc": {
+    "placeholders": {
+      "members": {
+        "type": "int"
+      },
+      "plan": {
+        "type": "String"
+      }
+    }
+  },
+  "mobileOrgsCreate": "Créer une organisation",
+  "mobileOrgsContinueWith": "Continuer avec {org}",
+  "@mobileOrgsContinueWith": {
+    "placeholders": {
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "mobileProjectsLimit": "Free : {used} projets sur {max}. Passez en Pro.",
+  "@mobileProjectsLimit": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      },
+      "used": {
+        "type": "String"
+      }
+    }
+  },
+  "mobileDemoEmailHint": "Démo : utilisez une adresse en @demo.test",
+  "mobileBillingNote": "Paiement simulé : aucune carte demandée.",
+  "mobileProfileAccount": "Compte",
+  "mobileProfileOrganization": "Organisation",
+  "mobileProfileNotifications": "Notifications",
+  "mobileProfileNotificationsOn": "Activées",
+  "mobileProfilePassword": "Mot de passe",
+  "mobileProfileChange": "Modifier",
+  "validationRequired": "Ce champ est obligatoire.",
+  "validationEmailInvalid": "Saisissez une adresse e-mail valide, par exemple marie@demo.test.",
+  "validationPasswordShort": "Le mot de passe doit contenir au moins {min} caractères.",
+  "@validationPasswordShort": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      }
+    }
+  },
+  "validationTooLong": "{max} caractères maximum.",
+  "@validationTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "validationEmailTaken": "Un compte existe déjà avec cette adresse. Connectez-vous ou utilisez une autre adresse.",
+  "validationLoginFailed": "E-mail ou mot de passe incorrect.",
+  "validationEmailNotVerified": "Vérifiez d’abord votre adresse : nous vous avons envoyé un lien.",
+  "errorNotFoundTitle": "Page introuvable",
+  "errorNotFoundText": "Cette page n’existe pas ou a été déplacée. Vérifiez l’adresse ou revenez à l’accueil.",
+  "errorForbiddenTitle": "Accès refusé",
+  "errorForbiddenText": "Votre rôle ne permet pas d’ouvrir cette page. Demandez l’accès à un administrateur de l’organisation {org}.",
+  "@errorForbiddenText": {
+    "placeholders": {
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "errorForbiddenAdminOnly": "Cette page est réservée au super-admin de la démo.",
+  "errorServerTitle": "Un problème est survenu",
+  "errorServerText": "Réessayez dans un instant. Si le problème continue, rechargez la page.",
+  "errorNetwork": "Connexion impossible. Vérifiez votre réseau, puis réessayez.",
+  "errorSessionExpired": "Votre session a expiré. Reconnectez-vous pour continuer.",
+  "errorOwnerProtected": "Le rôle de propriétaire ne peut être ni modifié ni retiré.",
+  "errorInvitationUnavailable": "Cette invitation n’est plus valable.",
+  "errorInvalidLink": "Ce lien n’est pas valable. Demandez-en un nouveau.",
+  "errorInvalidRequest": "Certaines informations sont manquantes ou incorrectes.",
+  "errorAlreadyPro": "Cette organisation est déjà en formule Pro.",
+  "emailVerifySubject": "Confirmez votre adresse e-mail",
+  "emailVerifyPreheader": "Un clic pour activer votre compte LaunchKit.",
+  "emailVerifyTitle": "Confirmez votre adresse",
+  "emailVerifyBody": "Bonjour {firstName}, cliquez sur le bouton ci-dessous pour activer votre compte LaunchKit.",
+  "@emailVerifyBody": {
+    "placeholders": {
+      "firstName": {
+        "type": "String"
+      }
+    }
+  },
+  "emailVerifyButton": "Activer mon compte",
+  "emailVerifyExpiry": "Ce lien est valable {hours} heures.",
+  "@emailVerifyExpiry": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      }
+    }
+  },
+  "emailVerifyIgnore": "Vous n’avez pas créé de compte ? Ignorez simplement cet e-mail.",
+  "emailInviteSubject": "{inviter} vous invite à rejoindre {org}",
+  "@emailInviteSubject": {
+    "placeholders": {
+      "inviter": {
+        "type": "String"
+      },
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "emailInvitePreheader": "Rejoignez l’équipe {org} sur LaunchKit.",
+  "@emailInvitePreheader": {
+    "placeholders": {
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "emailInviteTitle": "Rejoignez {org}",
+  "@emailInviteTitle": {
+    "placeholders": {
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "emailInviteBody": "{inviter} vous invite à rejoindre l’organisation {org} sur LaunchKit, avec le rôle {role}.",
+  "@emailInviteBody": {
+    "placeholders": {
+      "inviter": {
+        "type": "String"
+      },
+      "org": {
+        "type": "String"
+      },
+      "role": {
+        "type": "String"
+      }
+    }
+  },
+  "emailInviteButton": "Accepter l’invitation",
+  "emailInviteExpiry": "L’invitation est valable {days} jours.",
+  "@emailInviteExpiry": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "emailInviteIgnore": "Vous ne connaissez pas {inviter} ? Ignorez cet e-mail.",
+  "@emailInviteIgnore": {
+    "placeholders": {
+      "inviter": {
+        "type": "String"
+      }
+    }
+  },
+  "emailProWelcomeSubject": "{org} passe en Pro",
+  "@emailProWelcomeSubject": {
+    "placeholders": {
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "emailProWelcomePreheader": "Projets et membres illimités, dès maintenant.",
+  "emailProWelcomeTitle": "Bienvenue dans Pro",
+  "emailProWelcomeBody": "Bonjour {firstName}, {org} est maintenant en formule Pro : projets et membres illimités. Dans cette démo, le paiement est simulé.",
+  "@emailProWelcomeBody": {
+    "placeholders": {
+      "firstName": {
+        "type": "String"
+      },
+      "org": {
+        "type": "String"
+      }
+    }
+  },
+  "emailProWelcomeButton": "Ouvrir LaunchKit",
+  "emailFooter": "LaunchKit · démo portfolio · e-mail envoyé dans la boîte de test Mailpit."
+}

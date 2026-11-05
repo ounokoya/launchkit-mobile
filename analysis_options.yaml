@@ -1,0 +1,18 @@
+include: package:flutter_lints/flutter.yaml
+
+formatter:
+  page_width: 120
+
+analyzer:
+  exclude:
+    - build/**
+    - lib/l10n/app_localizations*.dart
+    - android/**
+    - ios/**
+    - linux/**
+
+linter:
+  rules:
+    - prefer_single_quotes
+    - always_declare_return_types
+    - unawaited_futures

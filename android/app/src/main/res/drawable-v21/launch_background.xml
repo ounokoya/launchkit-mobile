@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Splash screen before Android 12: white, the app icon in the middle (Android 12+ shows the adaptive icon). -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/white" />
+    <item>
+        <bitmap android:gravity="center" android:src="@mipmap/launch_image" />
+    </item>
+</layer-list>
