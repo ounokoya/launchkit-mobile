@@ -619,7 +619,9 @@
   "projectsHistoryDescriptionChangedShort": "Description modifiée",
   "projectsFormName": "Nom du projet",
   "projectsFormNameHelp": "Un nom court que toute l’équipe reconnaîtra.",
+  "projectsFormNameExample": "Site vitrine",
   "projectsFormDescription": "Description",
+  "projectsFormDescriptionExample": "Refonte du site de l’agence…",
   "projectsFormCreate": "Créer le projet",
   "projectsConfirmDeleteTitle": "Supprimer « {project} » ?",
   "@projectsConfirmDeleteTitle": {

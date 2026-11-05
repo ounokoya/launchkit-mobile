@@ -838,7 +838,13 @@ class AppLocalizationsFr extends AppLocalizations {
   String get projectsFormNameHelp => 'Un nom court que toute l’équipe reconnaîtra.';
 
   @override
+  String get projectsFormNameExample => 'Site vitrine';
+
+  @override
   String get projectsFormDescription => 'Description';
+
+  @override
+  String get projectsFormDescriptionExample => 'Refonte du site de l’agence…';
 
   @override
   String get projectsFormCreate => 'Créer le projet';

@@ -1514,11 +1514,23 @@ abstract class AppLocalizations {
   /// **'Un nom court que toute l’équipe reconnaîtra.'**
   String get projectsFormNameHelp;
 
+  /// No description provided for @projectsFormNameExample.
+  ///
+  /// In fr, this message translates to:
+  /// **'Site vitrine'**
+  String get projectsFormNameExample;
+
   /// No description provided for @projectsFormDescription.
   ///
   /// In fr, this message translates to:
   /// **'Description'**
   String get projectsFormDescription;
+
+  /// No description provided for @projectsFormDescriptionExample.
+  ///
+  /// In fr, this message translates to:
+  /// **'Refonte du site de l’agence…'**
+  String get projectsFormDescriptionExample;
 
   /// No description provided for @projectsFormCreate.
   ///

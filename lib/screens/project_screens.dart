@@ -461,7 +461,7 @@ class _ProjectFormScreenState extends ConsumerState<ProjectFormScreen> {
                   LkField(
                     label: t.projectsFormName,
                     controller: _name,
-                    hint: 'Site vitrine',
+                    hint: t.projectsFormNameExample,
                     help: t.projectsFormNameHelp,
                     error: error?.field('name'),
                   ),
@@ -470,7 +470,7 @@ class _ProjectFormScreenState extends ConsumerState<ProjectFormScreen> {
                     label: t.projectsFormDescription,
                     controller: _description,
                     maxLines: 4,
-                    hint: 'Refonte du site de l’agence…',
+                    hint: t.projectsFormDescriptionExample,
                     error: error?.field('description'),
                   ),
                   const SizedBox(height: 16),

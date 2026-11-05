@@ -7,12 +7,13 @@ Légende : ✅ validé · 💡 proposé, à valider · 🚧 en cours
 
 | Version | Thème | Statut |
 |---|---|---|
-| v0.1.0 | Les écrans et états du design, Android et iOS | 🚧 |
+| v0.1.0 | Les écrans et états du design, Android et iOS | ✅ |
+| v0.1.1 | Correctif : exemples du formulaire de projet traduits | ✅ |
 | v0.2.0 | Notifications et test interne sur les stores | 💡 |
 | v0.3.0 | Hors ligne complet et biométrie | 💡 |
 | v1.0.0 | Publication sur les stores | 💡 |
 
-## v0.1.0 · Les écrans et états du design 🚧
+## v0.1.0 · Les écrans et états du design ✅
 
 **Écrans** ✅ (Penpot « 04 · Mobile », 390 × 844)
 - M01 à M08 : connexion, inscription, choix de l'organisation, projets, projet, membres, abonnement, profil et
@@ -33,6 +34,11 @@ Légende : ✅ validé · 💡 proposé, à valider · 🚧 en cours
 - Accessibilité dans les tests : cibles tactiles, libellés, contraste.
 - Scénario A / B de bout en bout sur la vraie pile (API, worker, Mailpit) : `integration_test`, cible Linux en CI.
 - Couverture ≥ 80 % en CI ; sécurité : osv-scanner, `flutter analyze`, aucun secret dans l'application.
+
+## v0.1.1 · Correctif ✅
+
+- Formulaire de projet : les exemples des champs (nom, description) étaient écrits en français dans les deux
+  langues ; ils viennent désormais des textes FR / EN (`projects.form.name_example`, `description_example`).
 
 ## v0.2.0 · Notifications et test interne 💡
 
