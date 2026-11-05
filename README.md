@@ -80,3 +80,7 @@ GitHub Actions runs all of it on every push and builds the Android demo APK and 
 | launcher icons, splash images | `brand/logo/final` | `python3 tools/mobile/icones_appli.py` |
 
 (The scripts live in the private design repository; the generated files are committed.)
+
+## License
+
+MIT, see [LICENSE](LICENSE). Third-party assets keep their own license (Inter: OFL; Lucide icons: ISC).
